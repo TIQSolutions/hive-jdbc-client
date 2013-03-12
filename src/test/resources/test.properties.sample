@@ -1,0 +1,24 @@
+###
+# Driver class
+#
+# for classic apache hive use
+#driver.class = org.apache.hadoop.hive.jdbc.HiveDriver
+# for hive2 or impala use
+#driver.class = org.apache.hive.jdbc.HiveDriver
+###
+# the jdbc uri
+#
+#           | Hive	    | Hive2     | Impala
+# ----------------------------------------------
+# protocol  | hive      | hive2     | hive2
+# host*     | localhost | localhost | localhost
+# port*     | 10000     | 10000     | 21050
+# database* | default   | default   | default
+# 
+# * if necessary, apply changes to match your environment
+#jdbc.uri     = jdbc:<protocol>://<host>:<port>/<database>;auth=noSasl
+#
+###
+# Multiple test
+#
+# add some prefix like 'hive.'
