@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.tiq</groupId>
 	<artifactId>hive-jdbc-client</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-cdh4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<dependencies>
@@ -15,6 +15,17 @@
 		</dependency>
  -->
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>Cloudera</id>
+			<url>https://repository.cloudera.com/content/groups/cdh-releases-rcs</url>
+			<name>Cloudera Public Repositories</name>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 
 	<profiles>
 		<profile>
