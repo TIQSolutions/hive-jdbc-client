@@ -3,17 +3,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.tiq</groupId>
 	<artifactId>hive-jdbc-client</artifactId>
-	<version>0.0.1-cdh4-SNAPSHOT</version>
+	<version>0.8.1-cdh4.0.0</version>
 	<packaging>pom</packaging>
 
 	<dependencies>
-<!-- 
  		<dependency>
 			<groupId>org.apache.hive</groupId>
 			<artifactId>hive-jdbc</artifactId>
 			<version>${project.version}</version>
 		</dependency>
- -->
 	</dependencies>
 
 	<repositories>
