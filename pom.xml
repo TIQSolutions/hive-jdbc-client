@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.tiq</groupId>
 	<artifactId>hive-jdbc-client</artifactId>
-	<version>0.8.1</version>
+	<version>0.9.0</version>
 	<packaging>pom</packaging>
 
 	<dependencies>
