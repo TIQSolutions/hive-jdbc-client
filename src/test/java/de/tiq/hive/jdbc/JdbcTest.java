@@ -53,6 +53,8 @@ public class JdbcTest {
 			}
 		}
 		
+		Assert.assertFalse("At least one connection should be configured in file 'test.properties'.", prefixes.isEmpty());
+		
 		return prefixes;
 	}
 
