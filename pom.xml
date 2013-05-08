@@ -3,17 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.tiq</groupId>
 	<artifactId>hive-jdbc-client</artifactId>
-	<version>0.9.0</version>
+	<version>0.10.0</version>
 	<packaging>pom</packaging>
 
 	<dependencies>
-		<!-- Added since org.apache.hadoop:hadoop-core:jar:0.20.1 isn't available any more -->
-		<dependency>
-			<groupId>org.apache.hadoop</groupId>
-			<artifactId>hadoop-core</artifactId>
-			<version>0.20.2</version>
-		</dependency>
-		
 		<dependency>
 			<groupId>org.apache.hive</groupId>
 			<artifactId>hive-jdbc</artifactId>
